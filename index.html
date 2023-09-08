@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>HNGx-Task1</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__content">
+          <img
+            src="picture.jpg"
+            alt="Olonisakin David"
+            data-testid="slackDisplayImage"
+            class="profile-image"
+          />
+          <div class="user-details">
+            <h1 class="header__username" data-testid="slackUserName">
+              Olonisakin David
+            </h1>
+            <h3 class="track" data-testid="myTrack">Frontend Development</h3>
+          </div>
+        </div>
+        <div class="header__date-time">
+          <p data-testid="currentDayOfTheWeek" class="day"></p>
+          <p data-testid="currentUTCTime" class="utc-time"></p>
+        </div>
+      </header>
+
+      <main class="main-content">
+        <a
+          href="https://github.com/olonisakindavid/HNGx-Task1"
+          data-testid="githubURL"
+          class="github-link"
+          >GitHub Repository</a
+        >
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+/* Reset default margin and padding */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Center container vertically and horizontally */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure container covers full viewport height */
+}
+
+body {
+  background-color: #1d1d1d;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 24px; /* Increase the font size for all text */
+}
+
+.header {
+  background-color: #222;
+  padding: 40px; /* Increase padding for header */
+  display: flex;
+  align-items: center;
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+}
+
+.profile-image {
+  max-width: 300px; /* Increase the maximum width of the profile image */
+  height: auto;
+  display: block;
+  margin-right: 20px;
+  border-radius: 50%;
+  border: 8px solid #ff6600; /* Increase border thickness */
+  transition: transform 0.3s;
+}
+
+.profile-image:hover {
+  transform: scale(1.1);
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.day,
+.utc-time,
+.header__username,
+.track,
+.github-link {
+  font-size: 36px; 
+
+.github-link {
+  display: inline-block;
+  margin-top: 40px; /* Increase margin for GitHub link */
+  padding: 20px 40px; /* Increase padding for GitHub link */
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.github-link:hover {
+  background-color: #0077aa;
+}
