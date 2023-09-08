@@ -58,7 +58,8 @@ body {
 .header__username,
 .track,
 .github-link {
-  font-size: 36px; 
+  font-size: 36px; /* Increase the font size for these elements */
+}
 
 .github-link {
   display: inline-block;
